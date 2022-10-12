@@ -1,3 +1,5 @@
+/*Commun*/ 
+
 body{
     display: flex;
     flex-direction: column;
@@ -6,7 +8,7 @@ body{
     height: max-content;
     width: max-content;
     text-align: center;
-    background-color: black;
+    background-color: red;
     color: white;
 }
 header{
@@ -14,6 +16,36 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 90%;
+}
+#menu{
+    display:none;
+}
+button{
+    margin: 10px 10px 10px 10px;
+    max-height: 2em;
+
+}
+input{
+    max-height: 2em;
+    max-width: 3em;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+/*TicTacToe*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#regles{
+    
 }
 
 #jeu{
@@ -33,26 +65,18 @@ header{
 #score{
     margin-top: 20px;
     display: flex;
-    width: 50%;
+    height: 170px;
     border: 2px solid black;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-button{
-    margin: 10px 10px 10px 10px;
-    max-height: 2em;
+#result{
+    align-self: flex-end;
+    margin-left: 2px;
+}
 
-}
-#menu{
-    display:none;
-}
-li{
-    list-style-type: none;
-    color: white;
-}
-a:visited{
-    color: white;
-}
+/*Debug*/
+
 #box{
     display: flex;
     flex-direction: column;
@@ -61,7 +85,4 @@ a:visited{
     height: 300px;
     width: 300px;
     border: 1px solid white;
-}
-input{
-    max-height: 2em;
 }

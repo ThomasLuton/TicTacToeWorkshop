@@ -6,9 +6,9 @@
         <link rel="stylesheet" href="styles.css" />
         <script src="./script.js" defer></script>
     </head>
-    <body>
-        <header>
-       <h1>Changer la couleur du fond GROSSE MODIF pour faire apparaître le tic-tac-toe !</h1>
+    <body>        
+       <header>
+       <h1>Changer la couleur du fond pour faire apparaître le tic-tac-toe !</h1>
        <nav>
         <button onclick="menuDeroulant()">Menu</button>
         <ul id="menu">
@@ -17,6 +17,15 @@
         </ul>
         </nav>
        </header>
+    <main>
+       <div id="regles">
+        <p>
+            N'utilisez que 'O' et 'X' majuscules !!
+        </p>
+        <p>
+            Cliquez sur Vérifier après chaque coup !!
+        </p>
+       </div>
        <div id="jeu">
         <div class="case"></div>
         <div class="case"></div>
@@ -29,16 +38,13 @@
         <div class="case"></div>
        </div>
        <div id="score">
-        <div>
-            <p id="joueurX">Joueur X : 0 point(s) !</p>
-            <button id="victoireX" onclick="victoireX()">Victoire</button>
-        </div>
-        <div>
-            <p id="joueurO">Joueur O : 0 point(s) !</p>
-            <button id="victoireO" onclick="victoireO()">Victoire</button> 
-        </div>
-            <button onclick="nul()">Egalité</button>
+        <p id="joueurX">Joueur X : 0 point(s) ! </p>
+        <p id="joueurO">Joueur O : 0 point(s) ! </p>
+        <p id="result"></p>
+        <button onclick="verify()">Vérifier</button>
+        <button onclick="nul()">Egalité</button>
        </div>
-       <p id="result"></p>
+       
+    </main>
     </body>
 </html>
