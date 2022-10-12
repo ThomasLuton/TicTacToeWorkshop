@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Index</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="./script.js" async></script>
+        <script src="./bubbleSort.js" async></script>
+    </head>
+    <body>
+        <header>
+            <h1>Utilise l'outil de développement pour trouver le bug</h1>
+            <nav>
+             <button onclick="menuDeroulant()">Menu</button>
+             <ul id="menu">
+                 <li><a href="index.html">Index</a></li>
+                 <li><a href="debug.html">Debug</a></li>
+             </ul>
+             </nav>
+        </header>
+        <div id="box">
+            <p>Quelle âge as tu ?</p>
+            <input type="number" id="age" />
+            <button onclick="ageControl()">Valider</button>
+            <p id="condition" ></p>
+        </div>
+    </body>
+</html>

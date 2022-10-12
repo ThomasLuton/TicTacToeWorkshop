@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: max-content;
+    width: max-content;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#jeu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+}
+.case{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    margin: 1px;
+}
+#score{
+    margin-top: 20px;
+    display: flex;
+    width: 50%;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    margin: 10px 10px 10px 10px;
+    max-height: 2em;
+
+}
+#menu{
+    display:none;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+}
+input{
+    max-height: 2em;
+}
