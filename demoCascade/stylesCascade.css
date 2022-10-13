@@ -1,0 +1,13 @@
+body {
+    color : blue ;
+    text-align: center;
+    font-size: large;
+    background-color: beige;
+    height: 700px;
+    margin-top: 100px;
+}
+ 
+.setColor{
+    color : green;
+}
+ 
